@@ -42,6 +42,7 @@ public class if_else_statements {
             System.out.printf("NUM_01 = %d is Less than NUM_02 = %d", a , b);
         }
 
+        sc.close();
     }
     
 }
