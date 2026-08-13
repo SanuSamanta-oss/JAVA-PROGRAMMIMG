@@ -11,6 +11,8 @@ public class Odd_or_Even {
         System.out.print("Enter your second number: ");
         num2 =  sc.nextInt();
 
+        sc.close();
+
         if (num1 % 2 == 0 ){
             System.out.printf("%d is Even number !!",num1);
         }else if(num2 % 2 == 0){
